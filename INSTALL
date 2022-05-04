@@ -12,7 +12,5 @@ if [[ "$EUID" = 0 ]]; then
                                             fi
                                             fi
 
-echo 'Adding permissions to circa'
-chmod +x circa
-echo 'Moving circa to /usr/bin/'
-mv circa /usr/bin
+echo 'Installing...'
+install -m 755 circa /usr/bin/circa
