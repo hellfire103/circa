@@ -2,7 +2,13 @@
 
 A script to take circular screenshots.
 
-## Getting started
+## How To Use
+
+1. Open a terminal and run `circa`
+2. Follow the on-screen instructions
+3. Your screenshot will be saved in the current directory
+
+## Installation
 
 ### From Source
 
